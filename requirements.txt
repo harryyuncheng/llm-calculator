@@ -1,0 +1,8 @@
+# GUI Calculator with LLM Backend
+# tkinter is included with Python, no additional GUI dependencies needed
+
+# For Claude API integration
+anthropic>=0.7.0
+
+# Optional: For enhanced HTTP requests if needed
+requests>=2.28.0
