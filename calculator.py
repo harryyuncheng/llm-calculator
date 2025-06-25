@@ -53,9 +53,9 @@ class LLMCalculator:
         
         # Set default values
         self.api_key = os.getenv('ANTHROPIC_API_KEY', '')
-        self.claude_model = os.getenv('CLAUDE_MODEL', 'claude-3-sonnet-20240229')
-        self.max_tokens = int(os.getenv('CLAUDE_MAX_TOKENS', '100'))
-        self.timeout = int(os.getenv('CLAUDE_TIMEOUT', '30'))
+        self.claude_model = 'claude-3-haiku-20240307'
+        self.max_tokens = 1024
+        self.timeout = 30
     
     def create_display(self):
         """Create the display area for showing the current expression and result"""
